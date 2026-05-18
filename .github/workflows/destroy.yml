@@ -35,3 +35,4 @@ jobs:
             -var="project_name=${{ secrets.PROJECT_NAME }}" \
             -var="azure_region=${{ secrets.AZURE_REGION }}" \
             -var="azure_db_region=${{ secrets.AZURE_DB_REGION }}"
+            -var="db_password=${{ secrets.DB_PASSWORD }}"
